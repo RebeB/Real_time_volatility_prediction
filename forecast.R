@@ -1,6 +1,7 @@
 # ----- Forecast with a GARCH-MIDAS ------
 # forecast function rely on the "mfGARCH" package
 library(timeDate)
+#change
 
 ## ----- general useful function for forecast -----
 next_g_func <- function(alpha, beta, gamma, epsilon, tau, g) {
